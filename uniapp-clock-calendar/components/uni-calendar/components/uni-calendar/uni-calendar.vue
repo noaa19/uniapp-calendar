@@ -26,8 +26,8 @@
 						<text class="uni-calendar__header-text">{{ (nowDate.year||'') +'.'+( nowDate.month||'')}}</text>
 					</picker>
 					<view class="uni-calendar__header-btn-box" @click.stop="next">
-						<view class="uni-calendar__header-btn uni-calendar--right"></view> -->
-					</view>
+						<view class="uni-calendar__header-btn uni-calendar--right"></view>
+					</view> -->
 				<!-- 需要月份变化请将此段代码放开--end -->
 				
 				<!-- <text class="uni-calendar__backtoday" @click="backtoday">{{todayText}}</text> -->
@@ -494,6 +494,7 @@
 		text-align: center;
 		width: 100px;
 		font-size: $uni-font-size-base;
+		font-size: 30rpx;
 		color: $uni-text-color;
 	}
 
@@ -509,8 +510,8 @@
 	}
 
 	.uni-calendar__header-btn {
-		width: 10px;
-		height: 10px;
+		width: 20rpx;
+		height: 20rpx;
 		border-left-color: $uni-text-color-placeholder;
 		border-left-style: solid;
 		border-left-width: 2px;
@@ -555,7 +556,7 @@
 	}
 
 	.uni-calendar__weeks-day-text {
-		font-size: 14px;
+		font-size: 30rpx;
 	}
 
 	.uni-calendar__box {

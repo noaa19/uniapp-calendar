@@ -119,6 +119,7 @@
 	.uni-calendar-item__weeks-box-text {
 		font-size: $uni-font-size-base;
 		color: $uni-text-color;
+		font-size: 27rpx;
 	}
 
 	.uni-calendar-item__weeks-lunar-text {
